@@ -13,8 +13,8 @@ If we want to build any app the two most important thing to think about is Data 
 ### Create the object using the following ways
 
 For each different ways of creating object write different solutions.
-
 - Without Object
+
 - Organize using object
 - Use a function to create object
 - Convert the function to use `this` keyword
