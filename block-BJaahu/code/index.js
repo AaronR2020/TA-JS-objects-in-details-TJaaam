@@ -50,7 +50,7 @@ let sQuestion = new Questions(
         return correctAnswerIndex==this.correctAnswerIndex?true:false;
     }
     getCorrectAnswer(){
-        return this.correctAnswerIndex;
+        return this.option[correctAnswerIndex];
     }
   }
   let tQuestion = new QuestionsE(
