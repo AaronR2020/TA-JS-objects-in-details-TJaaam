@@ -13,7 +13,23 @@ Properties:
 - `numberOfLegs`
 
 Methods
-
+class animal{
+    constructor(location,numberOfLegs){
+        this.location=location;
+        this.numberOfLegs=numberOfLegs;
+    }
+    eat(){
+       return `I live in ${this.location} and I can eat`
+    }
+    changeLocation(){
+        this.location=location;
+        return this.location;
+    }
+    summary(){
+       return `I live in ${this.location} and I have ${this.numberOfLegs}`
+    }
+    
+}
 - `eat()` - log a message saying `I live in ${location} and I can eat`
 
 - `changeLocation(newLocation)` - accepts location and updates the location of the animal
@@ -49,8 +65,6 @@ Methods:
 
 - `meow()` - alerts a message saying `I am ${name} and I can do mewo meow 😹`
 
-- `changeName(newName)` - accepts the name property and updates the name of the dog
-
-- `changeColorOfEyes(newColor)` - accepts the new color and updates the color of the dog
-
-- `summary()` - returns `I am ${name} and the color of my eyes are ${colorOfEyes}. I can also do meow meow`
+- `changeName(newName)` - accepts the name property and updates the name of the cat.
+- `changeColorOfEyes(newColor)` - accepts the new color and updates the color of the cat.
+- `summary()` - returns `I am ${name} and the color of my eyes are ${colorOfEyes}. I can also do meow meow`.
