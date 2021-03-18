@@ -4,6 +4,16 @@
 */
 
 // myMap function goes here
+function myMap(cb){
+
+  let fArr = []
+  
+  for(let i=0 ;i<this.length;i++){
+    fArr.push(cb(this[i]));
+  }
+  return fArr;
+  }
+Array.prototype.myMap=myMap()
 
 // Test the myMap function you created above
 
@@ -95,3 +105,5 @@ chunk will be the remaining elements. `length` should default to 1.
 console.log(num.chunk(2)); // [[1, 2], [3, 4], [2, 3], [6, 7], [7]]
 console.log(num.chunk()); // [[1], [2], [3], [4], [2], [3], [6], [7], [7]]
 console.log(strings.chunk(3)); // [['h', 'e', 'l'], ['l', 'o', 'w'], ['o', 'r', 'l'], ['d']]
+
+
