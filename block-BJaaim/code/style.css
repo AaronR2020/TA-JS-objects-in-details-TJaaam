@@ -1,0 +1,55 @@
+.container{
+    width: 80%;
+    margin: auto;
+    background-color: antiquewhite;
+    height: 80vh;
+}
+.question{
+    display: flex;
+    justify-content: center;  
+    height: 10vh;
+    border-bottom: 1px solid black;
+}
+.options form{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 50vh;
+    border: 1px solid red;
+    font-size: 20px;
+}
+input[type='radio']{
+    width: 10%;
+    height: 1.5em;
+    margin-top: 10px;
+    border: 1px solid red;
+}
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+    border: 1px blue solid;
+}
+.btn{
+    padding:10px 15px;
+}
+.error{
+    background-color: salmon;
+}
+.bt{
+    background-color: slateblue;
+}
+.success{
+    background-color: greenyellow;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.answer-nav{
+    display: flex;
+}
+.answer-nav .btn{
+    margin-left: 5px;
+}
